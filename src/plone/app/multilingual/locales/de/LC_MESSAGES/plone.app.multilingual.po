@@ -131,12 +131,12 @@ msgstr "Inhalt"
 #. Default: "Create ${lang_name}"
 #: ../browser/menu.py:53
 msgid "create_translation"
-msgstr "Erstelle Übersetzung"
+msgstr "Erstelle Übersetzung ${lang_name}"
 
 #. Default: "Create ${lang_name} folder"
 #: ../browser/menu.py:53
 msgid "create_translation_folder"
-msgstr "Erstelle Übersetzung für Ordner"
+msgstr "Erstelle Übersetzung ${lang_name} für Ordner"
 
 #. Default: "Add existing content as translation"
 #: ../browser/menu.py:102
