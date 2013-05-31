@@ -120,8 +120,8 @@
 
         $('#form-target fieldset > div > .field').unwrap()
 
-        original_fields = $('#frame-content .field');
-        destination_fields = $('#form-target fieldset .field');
+        original_fields = $('#frame-content .field').not(".field[rel='changeInfo']");
+        destination_fields = $('#form-target fieldset .field').not(".field .field");
 
         // Calculate the padding between fields as intended by css
         if (original_fields.length > 1) {
